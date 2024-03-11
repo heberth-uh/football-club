@@ -1,8 +1,39 @@
-# React + Vite
+# Simple Football club landing page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a template about a football club where you can show information related to the incoming matches, table positions, squad, etc.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+This landing page is developed using:
+* React Js
+* Tailwind CSS
+
+You can find the following sections on this landing page:
+1. Hero
+2. Nex matches
+3. Table of positions
+4. Club records
+5. Achievments
+6. Squad
+7. News
+
+### Intalling this website
+Clone this reposiroty:
+```bash
+$ git clone https://github.com/heberth-uh/football-club.git
+```
+
+Go to the clonned repository folder:
+```bash
+$ cd football-club
+```
+
+Donwload the dependencies:
+```bash
+$ npm install
+```
+
+And finally, execute:
+```bash
+$ npm run dev
+```
