@@ -6,18 +6,20 @@ export default function Squad() {
     const { squad } = useContext(Context);
 
     return (
-        <div className="bg-slate-800" id="plantilla_section">
+        <div className="bg-slate-800 bg-hexagon-pattern" id="plantilla_section">
             <div className="container mx-auto text-center py-16 px-2 md:px-0 md:w-3/4 xxoverflow-hidden">
-                <h4 className="text-gray-100 text-2xl md:text-3xl font-semibold mb-16">
-                    Plantilla
-                </h4>
+
+                <div className='mb-16'>
+                    <h2 className='font-extrabold text-2xl text-gray-300 uppercase'>Plantilla</h2>
+                    <hr className='mx-auto h-[3px] w-20 bg-gray-300 border-none my-2' />
+                </div>
 
                 <div>
                     <div className="relative mb-10 pb-4 border-b-2 border-gray-500">
                         <p className="absolute left-0 right-0 -top-8 text-6xl font-extrabold text-indigo-400 opacity-10">
                             Porteros
                         </p>
-                        <p className="text-2xl font-extrabold text-cyan-100">
+                        <p className="text-2xl font-extrabold text-indigo-200">
                             Porteros
                         </p>
                     </div>
@@ -39,7 +41,7 @@ export default function Squad() {
                         <p className="absolute left-0 right-0 -top-8 text-6xl font-extrabold text-indigo-400 opacity-10">
                             Defensas
                         </p>
-                        <p className="text-2xl font-extrabold text-cyan-100">
+                        <p className="text-2xl font-extrabold text-indigo-200">
                             Defensas
                         </p>
                     </div>
@@ -61,7 +63,7 @@ export default function Squad() {
                         <p className="absolute left-0 right-0 -top-8 text-6xl font-extrabold text-indigo-400 opacity-10">
                             Medios
                         </p>
-                        <p className="text-2xl font-extrabold text-cyan-100">
+                        <p className="text-2xl font-extrabold text-indigo-200">
                             Medios
                         </p>
                     </div>
@@ -83,7 +85,7 @@ export default function Squad() {
                         <p className="absolute left-0 right-0 -top-8 text-6xl font-extrabold text-indigo-400 opacity-10">
                             Delanteros
                         </p>
-                        <p className="text-2xl font-extrabold text-cyan-100">
+                        <p className="text-2xl font-extrabold text-indigo-200">
                             Delanteros
                         </p>
                     </div>

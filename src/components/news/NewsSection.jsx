@@ -7,8 +7,8 @@ export default function NewsSection() {
 
     const { news } = useContext(Context)
     return (
-        <div className='bg-slate-900'>
-            <div className='container mx-auto px-4 md:px-0 text-center py-14'>
+        <section className='bg-slate-900' id="news">
+            <div className='container mx-auto px-4 md:px-0 text-center py-16'>
 
                 <div className='mb-10'>
                     <h2 className='font-extrabold text-2xl text-gray-300 uppercase'>Noticias</h2>
@@ -35,6 +35,6 @@ export default function NewsSection() {
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

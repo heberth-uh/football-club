@@ -9,14 +9,9 @@ export const menus = [
         title: 'Resultados',
         target_name: '#resultados_section'
     },
-    // {
-    //     id: 3,
-    //     title: 'Agenda',
-    //     target_name: '#agenda_section'
-    // },
-    // {
-    //     id: 4,
-    //     title: 'Galería',
-    //     target_name: '#galeria_section'
-    // }
+    {
+        id: 3,
+        title: 'Noticias',
+        target_name: '#news'
+    },
 ]

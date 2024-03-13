@@ -7,8 +7,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-palmares': "url('./src/images/palmares-bg.jpg')",
-        'hero-pattern': "url('./src/images/hero-pattern.svg')",
+        'hero-pattern': "url('./src/assets/svg/hero-pattern.svg')",
+        'hexagon-pattern': "url('./src/assets/svg/hexagon-pattern.svg')",
+        'palmares': "url('./src/assets/palmares-bg.jpg')",
       }
     },
   },

@@ -6,8 +6,8 @@ export default function Achievements() {
   const { achievements } = useContext(Context)
 
   return (
-    <div className='bg-hero-palmares bg-cover bg-no-repeat bg-center mx-auto'>
-      <div className='bg-slate-900 w-full h-full'>
+    <div className='bg-palmares bg-cover bg-no-repeat bg-center mx-auto'>
+      <div className='bg-slate-900/80 w-full h-full'>
         <div className='container mx-auto text-center py-6 z-10'>
             <h4 className='text-gray-100 text-2xl md:text-3xl font-semibold mb-5'>Palmarés</h4>
 
