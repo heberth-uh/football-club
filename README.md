@@ -2,7 +2,8 @@
 
 This is a template about a football club where you can show information related to the incoming matches, table positions, squad, etc.
 
-![image](https://github.com/heberth-uh/football-club/assets/65416264/5155150b-9602-41e1-aafd-a494066d77d0)
+![image](https://github.com/heberth-uh/football-club/assets/65416264/891f1123-0b3c-48a5-a870-d41d96d254b0)
+
 
 This landing page is developed using:
 
